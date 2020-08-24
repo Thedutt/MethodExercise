@@ -15,6 +15,7 @@ namespace MethodExercise
             string band;
             int num1;
             int num2;
+            int num3;
 
             Console.WriteLine("What is your name?");
             name = Console.ReadLine();
@@ -54,6 +55,15 @@ namespace MethodExercise
             int mult = Multiply(num1, num2);
             Console.WriteLine($"your number is {mult}");
 
+            Console.WriteLine("Lets try to do a division one now. Give me a number");
+            num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("what is another number?");
+            num2 = int.Parse(Console.ReadLine());
+
+            int div = Division(num1, num2);
+            Console.WriteLine($"your number is {div}");
+
         }
 
         public static int Add(int x, int y)
@@ -64,5 +74,10 @@ namespace MethodExercise
         {
             return x * y;
         }
+        public static int Division(int x, int y)
+        {
+            return x / y;
+        }
+        
     }
 }
