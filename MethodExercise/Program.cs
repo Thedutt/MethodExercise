@@ -6,7 +6,7 @@ namespace MethodExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
 
             int age;
             string name;
@@ -31,9 +31,9 @@ namespace MethodExercise
             Console.WriteLine("What is your favorite band?");
             band = Console.ReadLine();
 
-            Console.WriteLine("Hello your name is " + name + " and your age is " + age);
+            Console.WriteLine("Your name is " + name + " and your age is " + age);
             Console.WriteLine("For some reason your favorite color is " + color);
-            Console.WriteLine("Even stranger is that your favorite animal is " + animal);
+            Console.WriteLine("Even stranger is that your favorite animal is a " + animal);
             Console.WriteLine("However you saved yourself by having the favorite band " + band);
 
             Console.WriteLine("Give me any number");
