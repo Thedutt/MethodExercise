@@ -15,7 +15,7 @@ namespace MethodExercise
             string band;
             int num1;
             int num2;
-            int num3;
+            
 
             Console.WriteLine("What is your name?");
             name = Console.ReadLine();
@@ -78,6 +78,6 @@ namespace MethodExercise
         {
             return x / y;
         }
-        
+       
     }
 }
